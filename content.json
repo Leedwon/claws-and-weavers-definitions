@@ -1,0 +1,1552 @@
+{
+    "fractions": [
+        {
+            "id": "fraction.claws",
+            "name": "Claws",
+            "units": [
+                {
+                    "actionPoints": 2,
+                    "cards": [
+                        {
+                            "card": {
+                                "id": "claws.pomozmidominatorze",
+                                "name": "Pomoz mi dominatorze!",
+                                "description": " Zużyj tę kartę zamiast żetonu fanatyzmu."
+                            },
+                            "count": 1
+                        },
+                        {
+                            "card": {
+                                "id": "clas.bojesiedominatorze",
+                                "name": "Boje sie dominatorze",
+                                "description": " Gdy wroga jednostka deklaruje zużycie punktu akcji, przed rozpatrzeniem tej akcji, przyjazna jednostka mająca tę wrogą jednostkę w Polu Wzroku, może przenieść swój żeton fanatyzmu na inną przyjazną jednostkę w Polu Wzroku."
+                            },
+                            "count": 2
+                        }
+                    ],
+                    "defense": 2,
+                    "health": 12,
+                    "id": "claws.adeptszponow",
+                    "name": "Adept Szponów",
+                    "skills": [
+                        {
+                            "id": "claws.bojesiemistrzu",
+                            "name": "Boje się mistrzu!",
+                            "description": "Jako akcję możesz przekazać żeton fanatyzmu innej przyjaznej jednostce  w polu wzroku i zasięgu 6.",
+                            "type": "active",
+                            "subskills": []
+                        },
+                        {
+                            "id": "claws.celujwemnie",
+                            "name": "Celuj we mnie!",
+                            "description": "Gdy wroga jednostka w polu wzroku deklaruje zużycie punktu akcji przed rozpatrzeniem tej akcji, zużyj żeton fanatyzmu, by rzucić w nią kamieniem (1d4, automatyczne trafienie). Jeśli jesteś w zasięgu i polu wzroku deklarowanej akcji przez wrogą jednostkę, jednostka musi zaatakować lub użyć umiejętności na tobie.",
+                            "type": "active",
+                            "subskills": []
+                        }
+                    ],
+                    "speed": 8,
+                    "value": 75,
+                    "weapons": [
+                        {
+                            "id": "claws.krotkimieczadepta",
+                            "weaponType": "melee",
+                            "name": "krotki miecz adepta",
+                            "range": 1,
+                            "damage": {
+                                "type": "avoidable",
+                                "value": {
+                                    "count": 2,
+                                    "die": 4
+                                }
+                            }
+                        }
+                    ],
+                    "fraction": "Claws"
+                },
+                {
+                    "actionPoints": 3,
+                    "cards": [
+                        {
+                            "card": {
+                                "id": "claws.card.dominatormnieprowadzi",
+                                "name": "Dominator mnie prowadzi!",
+                                "description": "Zużyj żeton fanatyzmu zamiast Punktu Akcji."
+                            },
+                            "count": 1
+                        },
+                        {
+                            "card": {
+                                "id": "claws.card.metalktoryjestdaremoddominatora",
+                                "name": "Metal, który jest darem od Dominatora",
+                                "description": "Gdy przyjazna jednostka deklaruje zużycie punktu akcji w celu ataku lub trafi atakiem, zużyj żeton fanatyzmu, aby jej broń była pokryta jaskółczą stalą w czasie tego ataku."
+                            },
+                            "count": 2
+                        }
+                    ],
+                    "defense": 2,
+                    "health": 14,
+                    "id": "claws.szpon",
+                    "name": "Szpon",
+                    "skills": [
+                        {
+                            "id": "claws.szpon.jaskolczeostrze",
+                            "name": "Jaskółcze Ostrze",
+                            "description": "Klinga zakonnego miecza jest stworzona z Jaskółczej Stali i trafienie nią daje efekty Jaskółczej Stali.",
+                            "type": "passive",
+                            "subskills": []
+                        },
+                        {
+                            "id": "claws.szpon.sygnafor",
+                            "name": "Sygnafor",
+                            "description": "Jako akcja możesz na stałe zmienić tryb działania pierścienia. Blokowanie jest domyślnym trybem.",
+                            "type": "active",
+                            "subskills": [
+                                {
+                                    "id": "claws.szpon.blokowanie",
+                                    "name": "Blokowanie",
+                                    "description": "Pole, na którym stoi jednostka, jest liczone jako posiadające następujące Efekty Pola: Pokryte Jaskółczą Stalą oraz Maskujące.",
+                                    "type": "passive",
+                                    "subskills": []
+                                },
+                                {
+                                    "id": "claws.szpon.wykrywanie",
+                                    "name": "Wykrywanie",
+                                    "description": "Gdy wroga jednostka deklaruje że czerpie lub wykorzystuje umiejętność wymagającą przepływu w odległości maksymalnie 6 kafelków, po rozpatrzeniu deklarowanej akcji, jednostka może wykorzystać żeton fanatyzmu by wykonać darmową akcję ruchu o wartości 2 punkty Szybkości lub wykonać atak w zwarciu na jednostkę wykorzystującą przepływ.",
+                                    "type": "active",
+                                    "subskills": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "claws.szpon.blokowanie",
+                            "name": "Blokowanie",
+                            "description": "Pole, na którym stoi jednostka, jest liczone jako posiadające następujące Efekty Pola: Pokryte Jaskółczą Stalą oraz Maskujące.",
+                            "type": "passive",
+                            "subskills": []
+                        },
+                        {
+                            "id": "claws.szpon.wykrywanie",
+                            "name": "Wykrywanie",
+                            "description": "Gdy wroga jednostka deklaruje że czerpie lub wykorzystuje umiejętność wymagającą przepływu w odległości maksymalnie 6 kafelków, po rozpatrzeniu deklarowanej akcji, jednostka może wykorzystać żeton fanatyzmu by wykonać darmową akcję ruchu o wartości 2 punkty Szybkości lub wykonać atak w zwarciu na jednostkę wykorzystującą przepływ.",
+                            "type": "active",
+                            "subskills": []
+                        }
+                    ],
+                    "speed": 6,
+                    "value": 100,
+                    "weapons": [
+                        {
+                            "id": "claws.zakonnymiecz.szpon",
+                            "weaponType": "melee",
+                            "name": "Zakonny miecz",
+                            "range": 1,
+                            "damage": {
+                                "type": "avoidable",
+                                "value": {
+                                    "count": 2,
+                                    "die": 4
+                                }
+                            }
+                        },
+                        {
+                            "id": "claws.kuszapodreczna.szpon",
+                            "weaponType": "ranged",
+                            "name": "Kusza podręczna",
+                            "range": 2,
+                            "damage": {
+                                "type": "avoidable",
+                                "value": {
+                                    "count": 1,
+                                    "die": 4
+                                }
+                            }
+                        }
+                    ],
+                    "fraction": "Claws"
+                },
+                {
+                    "actionPoints": 3,
+                    "cards": [
+                        {
+                            "card": {
+                                "id": "claws.card.dominatorzezlapieichdlaciebie",
+                                "name": "Dominatorze, złapie ich dla ciebie!",
+                                "description": "Gdy przyjazna jednostka deklaruje zużycie punktu akcji, zużyj punkt fanatyzmu, by ustawić nieaktywną pułapkę na pustym kafelku sąsiadującym z tą jednostką."
+                            },
+                            "count": 1
+                        },
+                        {
+                            "card": {
+                                "id": "claws.card.widzeheretyka",
+                                "name": "Widzę Heretyka!",
+                                "description": "Na początku aktywacji zużyj punkt fanatyzmu, by dać do końca tury broni dystansowej aktywowanej jednostki: +1 szansy na trafienie."
+                            },
+                            "count": 2
+                        }
+                    ],
+                    "defense": 0,
+                    "health": 9,
+                    "id": "claws.fanatycznytraper",
+                    "name": "Fanatyczny Traper",
+                    "skills": [
+                        {
+                            "id": "claws.traper.pulapkinaheretykow",
+                            "name": "Pułapki na heretyków!",
+                            "description": "Jednostka posiada do rozstawienia 2 kafelki ukrytej pułapki: 1 aktywna, 1 nieaktywna. Jako akcję możesz wystawić 1 pułapkę na pustym kafelku sąsiadującym z tą jednostką.",
+                            "type": "active",
+                            "subskills": []
+                        }
+                    ],
+                    "speed": 8,
+                    "value": 75,
+                    "weapons": [
+                        {
+                            "id": "claws.sztylet.traper",
+                            "weaponType": "melee",
+                            "name": "Sztylet",
+                            "range": 1,
+                            "damage": {
+                                "type": "avoidable",
+                                "value": {
+                                    "count": 1,
+                                    "die": 4
+                                }
+                            }
+                        },
+                        {
+                            "id": "claws.krotkizakonnyluk.traper",
+                            "weaponType": "ranged",
+                            "name": "Krótki zakonny łuk",
+                            "range": 3,
+                            "damage": {
+                                "type": "avoidable",
+                                "value": {
+                                    "count": 1,
+                                    "die": 4
+                                }
+                            }
+                        }
+                    ],
+                    "fraction": "Claws"
+                },
+                {
+                    "actionPoints": 2,
+                    "cards": [
+                        {
+                            "card": {
+                                "id": "claws.card.zbawieniepoprzezcierpienie",
+                                "name": "ZBAWIENIE POPRZEZ CIERPIENIE!",
+                                "description": "Na początku aktywacji zużyj punkt fanatyzmu by zaatakować w zwarciu samego siebie (automatycznie trafienie), a następnie przeciwnika."
+                            },
+                            "count": 1
+                        },
+                        {
+                            "card": {
+                                "id": "claws.card.panmniewybral",
+                                "name": "PAN MNIE WYBRAŁ!",
+                                "description": "Po zadeklarowaniu szarży zużyj punkt fanatyzmu, by w tej akcji móc szarżować przez kafelki zwiększające Poziom Wysokość. Koszt tej szarży wynosi 1 punkt akcji."
+                            },
+                            "count": 2
+                        }
+                    ],
+                    "defense": 0,
+                    "health": 8,
+                    "id": "claws.fanatyk",
+                    "name": "Fanatyk",
+                    "speed": 9,
+                    "value": 50,
+                    "weapons": [
+                        {
+                            "id": "claws.weapon.kolczastybiczpokutny",
+                            "weaponType": "melee",
+                            "name": "Kolczasty bicz pokutny",
+                            "range": 1,
+                            "damage": {
+                                "type": "avoidable",
+                                "value": {
+                                    "count": 1,
+                                    "die": 4
+                                },
+                                "additionalDamage": 1
+                            }
+                        }
+                    ],
+                    "fraction": "Claws"
+                }
+            ]
+        },
+        {
+            "id": "fraction.weavers",
+            "name": "Weavers",
+            "units": [
+                {
+                    "actionPoints": 3,
+                    "cards": [
+                        {
+                            "card": {
+                                "id": "weavers.card.zlotakula.pociskpostepu",
+                                "name": "Złota Kula",
+                                "description": "Zużyj punkt akcji, by dać na stałe jednostce z buzującym lub stopionym sercem przepływu umiejętność: Pocisk postępu (wariant wzmocniony).",
+                                "teachesSkill": {
+                                    "id": "weavers.skill.pociskpostepu.zlotakula",
+                                    "name": "Pocisk postępu",
+                                    "description": "Zużyj punkt akcji oraz minimum 4pt przepływu aby wykonać atak dystansowy o zasięgu 2 oraz 1 punkcie obrażeń nieuchronnych. Za każde zużyte 4 punkty przepływu otrzymuje: +2 do trafienia, +1 do zasięgu, 1d4+1 obrażeń nieuchronnych.",
+                                    "type": "active",
+                                    "subskills": []
+                                }
+                            },
+                            "count": 1
+                        },
+                        {
+                            "card": {
+                                "id": "weavers.card.zlotakula.zaawansowanapiromancja",
+                                "name": "Złota Kula",
+                                "description": "Zużyj punkt akcji, by dać na stałe jednostce z buzującym lub stopionym sercem przepływu umiejętność: Zaawansowana piromancja.",
+                                "teachesSkill": {
+                                    "id": "weavers.skill.zaawansowanapiromancja.zlotakula",
+                                    "name": "Zaawansowana piromancja",
+                                    "description": "Za każde zużyte 4 punkty przepływu podpal kafelek w zasięgu wzroku oraz dystansie 2 i zadaj 1d4 obrażeń przepływowych stojącej na nim jednostce.",
+                                    "type": "active",
+                                    "subskills": []
+                                }
+                            },
+                            "count": 1
+                        },
+                        {
+                            "card": {
+                                "id": "weavers.card.krysztalkwarcowy.pomaranczowy",
+                                "name": "Kryształ kwarcowy - Pomarańczowy",
+                                "description": "Na początku aktywacji użyj tej karty, aby dać aktywowanej jednostce z buzującym lub stopionym sercem przepływu 4 punkty przepływu."
+                            },
+                            "count": 1
+                        }
+                    ],
+                    "defense": 1,
+                    "flowLimit": 20,
+                    "fraction": "Weavers",
+                    "health": 14,
+                    "heartType": "buzzing",
+                    "id": "weavers.buzujacyprofesortermodynamiki",
+                    "name": "Buzujący Profesor Termodynamiki",
+                    "skills": [
+                        {
+                            "id": "weavers.skill.pociskpostepu",
+                            "name": "Pocisk postępu",
+                            "description": "Zużyj punkt akcji oraz minimum 4pt przepływu aby wykonać atak dystansowy o zasięgu 2 oraz 1 punkcie obrażeń nieuchronnych. Za każde zużyte 4 punkty przepływu otrzymuje: +1 do trafienia, +1 do zasięgu, 1d4 obrażeń nieuchronnych.",
+                            "type": "active",
+                            "subskills": []
+                        },
+                        {
+                            "id": "weavers.skill.piromancja",
+                            "name": "Piromancja",
+                            "description": "Zużyj punkt akcji aby wykorzystać 1 punkt przepływu i podpalić kafelek w zasięgu wzroku i dystansie 2.",
+                            "type": "active",
+                            "subskills": []
+                        }
+                    ],
+                    "speed": 6,
+                    "value": 100,
+                    "weapons": [
+                        {
+                            "id": "weavers.weapon.krotkinozprofesora",
+                            "weaponType": "melee",
+                            "name": "Krótki nóż profesora",
+                            "range": 1,
+                            "damage": {
+                                "type": "avoidable",
+                                "value": {
+                                    "count": 1,
+                                    "die": 4
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "actionPoints": 3,
+                    "cards": [
+                        {
+                            "card": {
+                                "id": "weavers.card.checdoNauki",
+                                "name": "Chęć do nauki",
+                                "description": "Jako akcja dobierz z talii 4 karty i zostaw na ręce jedną z nich."
+                            },
+                            "count": 1
+                        },
+                        {
+                            "card": {
+                                "id": "weavers.card.krysztalkwarcowy.fioletowy",
+                                "name": "Kryształ kwarcowy - Fioletowy",
+                                "description": "Na początku aktywacji użyj tej karty, aby dać aktywowanej jednostce z bladym lub stopionym sercem przepływu 4 punkty przepływu."
+                            },
+                            "count": 2
+                        }
+                    ],
+                    "defense": 1,
+                    "flowLimit": 20,
+                    "fraction": "Weavers",
+                    "health": 8,
+                    "heartType": "pale",
+                    "id": "weavers.bladystudent",
+                    "name": "Blady Student",
+                    "skills": [
+                        {
+                            "id": "weavers.skill.naprawatkanki",
+                            "name": "Naprawa tkanki",
+                            "description": "Zużyj punkt akcji aby za każde zużyte 4 punkty przepływu wyleczyć 1d4+1 zdrowia sąsiadującej jednostce.",
+                            "type": "active",
+                            "subskills": []
+                        }
+                    ],
+                    "speed": 6,
+                    "value": 75,
+                    "weapons": [
+                        {
+                            "id": "weavers.weapon.pierscienzkolcem",
+                            "weaponType": "melee",
+                            "name": "Pierścień z kolcem",
+                            "range": 1,
+                            "damage": {
+                                "type": "avoidable",
+                                "value": {
+                                    "count": 1,
+                                    "die": 4
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "actionPoints": 3,
+                    "cards": [
+                        {
+                            "card": {
+                                "id": "weavers.card.checdoNauki",
+                                "name": "Chęć do nauki",
+                                "description": "Jako akcja dobierz z talii 4 karty i zostaw na ręce jedną z nich."
+                            },
+                            "count": 1
+                        },
+                        {
+                            "card": {
+                                "id": "weavers.card.krysztalkwarcowy.bialy",
+                                "name": "Kryształ kwarcowy -ą Biały",
+                                "description": "Na początku aktywacji użyj tej karty, aby dać aktywowanej jednostce z dowolnym sercem przepływu 2 punkty przepływu."
+                            },
+                            "count": 2
+                        }
+                    ],
+                    "defense": 0,
+                    "flowLimit": 20,
+                    "fraction": "Weavers",
+                    "health": 7,
+                    "heartType": "melted",
+                    "id": "weavers.stopionystudent",
+                    "name": "Stopiony Student",
+                    "skills": [
+                        {
+                            "id": "weavers.skill.torbastopionego",
+                            "name": "Torba Stopionego",
+                            "description": "Zużyj punkt akcji aby dobrać dwie karty i jedną odrzuć.",
+                            "type": "active",
+                            "subskills": []
+                        }
+                    ],
+                    "speed": 7,
+                    "value": 75,
+                    "weapons": [
+                        {
+                            "id": "weavers.weapon.nozstudenta",
+                            "weaponType": "melee",
+                            "name": "Nóż studenta",
+                            "range": 1,
+                            "damage": {
+                                "type": "avoidable",
+                                "value": {
+                                    "count": 1,
+                                    "die": 4
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "actionPoints": 2,
+                    "cards": [
+                        {
+                            "card": {
+                                "id": "weavers.card.krysztalkwarcowy.fioletowy",
+                                "name": "Kryształ kwarcowy - Fioletowy",
+                                "description": "Na początku aktywacji użyj tej karty, aby dać aktywowanej jednostce z bladym lub stopionym sercem przepływu 4 punkty przepływu."
+                            },
+                            "count": 3
+                        }
+                    ],
+                    "defense": 0,
+                    "flowLimit": 20,
+                    "fraction": "Weavers",
+                    "health": 8,
+                    "heartType": "pale",
+                    "id": "weavers.utalentowanymlodzieniec.pale",
+                    "name": "Blady Utalentowany Młodzieniec",
+                    "skills": [],
+                    "speed": 8,
+                    "value": 50,
+                    "weapons": [
+                        {
+                            "id": "weavers.weapon.rozbitabutelka",
+                            "weaponType": "melee",
+                            "name": "Rozbita butelka",
+                            "range": 1,
+                            "damage": {
+                                "type": "avoidable",
+                                "value": {
+                                    "count": 1,
+                                    "die": 4
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "actionPoints": 2,
+                    "cards": [
+                        {
+                            "card": {
+                                "id": "weavers.card.krysztalkwarcowy.niebieski",
+                                "name": "Kryształ kwarcowy - Niebieski",
+                                "description": "Na początku aktywacji użyj tej karty, aby dać aktywowanej jednostce z falującym lub stopionym sercem przepływu 4 punkty przepływu."
+                            },
+                            "count": 3
+                        }
+                    ],
+                    "defense": 0,
+                    "flowLimit": 20,
+                    "fraction": "Weavers",
+                    "health": 8,
+                    "heartType": "wavy",
+                    "id": "weavers.utalentowanymlodzieniec.wavy",
+                    "name": "Falujący Utalentowany Młodzieniec",
+                    "skills": [],
+                    "speed": 8,
+                    "value": 50,
+                    "weapons": [
+                        {
+                            "id": "weavers.weapon.rozbitabutelka",
+                            "weaponType": "melee",
+                            "name": "Rozbita butelka",
+                            "range": 1,
+                            "damage": {
+                                "type": "avoidable",
+                                "value": {
+                                    "count": 1,
+                                    "die": 4
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "actionPoints": 2,
+                    "cards": [
+                        {
+                            "card": {
+                                "id": "weavers.card.krysztalkwarcowy.bialy",
+                                "name": "Kryształ kwarcowy -ą Biały",
+                                "description": "Na początku aktywacji użyj tej karty, aby dać aktywowanej jednostce z dowolnym sercem przepływu 2 punkty przepływu."
+                            },
+                            "count": 3
+                        }
+                    ],
+                    "defense": 0,
+                    "flowLimit": 20,
+                    "fraction": "Weavers",
+                    "health": 8,
+                    "heartType": "melted",
+                    "id": "weavers.utalentowanymlodzieniec.melted",
+                    "name": "Stopiony Utalentowany Młodzieniec",
+                    "skills": [],
+                    "speed": 8,
+                    "value": 50,
+                    "weapons": [
+                        {
+                            "id": "weavers.weapon.rozbitabutelka",
+                            "weaponType": "melee",
+                            "name": "Rozbita butelka",
+                            "range": 1,
+                            "damage": {
+                                "type": "avoidable",
+                                "value": {
+                                    "count": 1,
+                                    "die": 4
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "actionPoints": 2,
+                    "cards": [
+                        {
+                            "card": {
+                                "id": "weavers.card.krysztalkwarcowy.pomaranczowy",
+                                "name": "Kryształ kwarcowy - Pomarańczowy",
+                                "description": "Na początku aktywacji użyj tej karty, aby dać aktywowanej jednostce z buzującym lub stopionym sercem przepływu 4 punkty przepływu."
+                            },
+                            "count": 3
+                        }
+                    ],
+                    "defense": 0,
+                    "flowLimit": 20,
+                    "fraction": "Weavers",
+                    "health": 8,
+                    "heartType": "buzzing",
+                    "id": "weavers.utalentowanymlodzieniec.buzzing",
+                    "name": "Buzujący Utalentowany Młodzieniec",
+                    "skills": [],
+                    "speed": 8,
+                    "value": 50,
+                    "weapons": [
+                        {
+                            "id": "weavers.weapon.rozbitabutelka",
+                            "weaponType": "melee",
+                            "name": "Rozbita butelka",
+                            "range": 1,
+                            "damage": {
+                                "type": "avoidable",
+                                "value": {
+                                    "count": 1,
+                                    "die": 4
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "adeptSzponow": {
+        "fraction": "Claws",
+        "id": "claws.adeptszponow",
+        "name": "Adept Szponów",
+        "value": 75,
+        "health": 12,
+        "actionPoints": 2,
+        "speed": 8,
+        "defense": 2,
+        "weapons": [
+            {
+                "id": "claws.krotkimieczadepta",
+                "weaponType": "melee",
+                "name": "krotki miecz adepta",
+                "range": 1,
+                "damage": {
+                    "type": "avoidable",
+                    "value": {
+                        "count": 2,
+                        "die": 4
+                    }
+                }
+            }
+        ],
+        "cards": [
+            {
+                "card": {
+                    "id": "claws.pomozmidominatorze",
+                    "name": "Pomoz mi dominatorze!",
+                    "description": " Zużyj tę kartę zamiast żetonu fanatyzmu."
+                },
+                "count": 1
+            },
+            {
+                "card": {
+                    "id": "clas.bojesiedominatorze",
+                    "name": "Boje sie dominatorze",
+                    "description": " Gdy wroga jednostka deklaruje zużycie punktu akcji, przed rozpatrzeniem tej akcji, przyjazna jednostka mająca tę wrogą jednostkę w Polu Wzroku, może przenieść swój żeton fanatyzmu na inną przyjazną jednostkę w Polu Wzroku."
+                },
+                "count": 2
+            }
+        ],
+        "skills": [
+            {
+                "id": "claws.bojesiemistrzu",
+                "name": "Boje się mistrzu!",
+                "description": "Jako akcję możesz przekazać żeton fanatyzmu innej przyjaznej jednostce  w polu wzroku i zasięgu 6.",
+                "type": "active",
+                "subskills": []
+            },
+            {
+                "id": "claws.celujwemnie",
+                "name": "Celuj we mnie!",
+                "description": "Gdy wroga jednostka w polu wzroku deklaruje zużycie punktu akcji przed rozpatrzeniem tej akcji, zużyj żeton fanatyzmu, by rzucić w nią kamieniem (1d4, automatyczne trafienie). Jeśli jesteś w zasięgu i polu wzroku deklarowanej akcji przez wrogą jednostkę, jednostka musi zaatakować lub użyć umiejętności na tobie.",
+                "type": "active",
+                "subskills": []
+            }
+        ]
+    },
+    "krotkiMieczAdepta": {
+        "id": "claws.krotkimieczadepta",
+        "weaponType": "melee",
+        "name": "krotki miecz adepta",
+        "range": 1,
+        "damage": {
+            "type": "avoidable",
+            "value": {
+                "count": 2,
+                "die": 4
+            }
+        }
+    },
+    "pomozMiDominatorz": {
+        "id": "claws.pomozmidominatorze",
+        "name": "Pomoz mi dominatorze!",
+        "description": " Zużyj tę kartę zamiast żetonu fanatyzmu."
+    },
+    "bojeSieDominatorze": {
+        "id": "clas.bojesiedominatorze",
+        "name": "Boje sie dominatorze",
+        "description": " Gdy wroga jednostka deklaruje zużycie punktu akcji, przed rozpatrzeniem tej akcji, przyjazna jednostka mająca tę wrogą jednostkę w Polu Wzroku, może przenieść swój żeton fanatyzmu na inną przyjazną jednostkę w Polu Wzroku."
+    },
+    "bojeSieMistrzu": {
+        "id": "claws.bojesiemistrzu",
+        "name": "Boje się mistrzu!",
+        "description": "Jako akcję możesz przekazać żeton fanatyzmu innej przyjaznej jednostce  w polu wzroku i zasięgu 6.",
+        "type": "active",
+        "subskills": []
+    },
+    "celujWeMnie": {
+        "id": "claws.celujwemnie",
+        "name": "Celuj we mnie!",
+        "description": "Gdy wroga jednostka w polu wzroku deklaruje zużycie punktu akcji przed rozpatrzeniem tej akcji, zużyj żeton fanatyzmu, by rzucić w nią kamieniem (1d4, automatyczne trafienie). Jeśli jesteś w zasięgu i polu wzroku deklarowanej akcji przez wrogą jednostkę, jednostka musi zaatakować lub użyć umiejętności na tobie.",
+        "type": "active",
+        "subskills": []
+    },
+    "szpon": {
+        "fraction": "Claws",
+        "id": "claws.szpon",
+        "name": "Szpon",
+        "value": 100,
+        "health": 14,
+        "actionPoints": 3,
+        "speed": 6,
+        "defense": 2,
+        "weapons": [
+            {
+                "id": "claws.zakonnymiecz.szpon",
+                "weaponType": "melee",
+                "name": "Zakonny miecz",
+                "range": 1,
+                "damage": {
+                    "type": "avoidable",
+                    "value": {
+                        "count": 2,
+                        "die": 4
+                    }
+                }
+            },
+            {
+                "id": "claws.kuszapodreczna.szpon",
+                "weaponType": "ranged",
+                "name": "Kusza podręczna",
+                "range": 2,
+                "damage": {
+                    "type": "avoidable",
+                    "value": {
+                        "count": 1,
+                        "die": 4
+                    }
+                }
+            }
+        ],
+        "cards": [
+            {
+                "card": {
+                    "id": "claws.card.dominatormnieprowadzi",
+                    "name": "Dominator mnie prowadzi!",
+                    "description": "Zużyj żeton fanatyzmu zamiast Punktu Akcji."
+                },
+                "count": 1
+            },
+            {
+                "card": {
+                    "id": "claws.card.metalktoryjestdaremoddominatora",
+                    "name": "Metal, który jest darem od Dominatora",
+                    "description": "Gdy przyjazna jednostka deklaruje zużycie punktu akcji w celu ataku lub trafi atakiem, zużyj żeton fanatyzmu, aby jej broń była pokryta jaskółczą stalą w czasie tego ataku."
+                },
+                "count": 2
+            }
+        ],
+        "skills": [
+            {
+                "id": "claws.szpon.jaskolczeostrze",
+                "name": "Jaskółcze Ostrze",
+                "description": "Klinga zakonnego miecza jest stworzona z Jaskółczej Stali i trafienie nią daje efekty Jaskółczej Stali.",
+                "type": "passive",
+                "subskills": []
+            },
+            {
+                "id": "claws.szpon.sygnafor",
+                "name": "Sygnafor",
+                "description": "Jako akcja możesz na stałe zmienić tryb działania pierścienia. Blokowanie jest domyślnym trybem.",
+                "type": "active",
+                "subskills": [
+                    {
+                        "id": "claws.szpon.blokowanie",
+                        "name": "Blokowanie",
+                        "description": "Pole, na którym stoi jednostka, jest liczone jako posiadające następujące Efekty Pola: Pokryte Jaskółczą Stalą oraz Maskujące.",
+                        "type": "passive",
+                        "subskills": []
+                    },
+                    {
+                        "id": "claws.szpon.wykrywanie",
+                        "name": "Wykrywanie",
+                        "description": "Gdy wroga jednostka deklaruje że czerpie lub wykorzystuje umiejętność wymagającą przepływu w odległości maksymalnie 6 kafelków, po rozpatrzeniu deklarowanej akcji, jednostka może wykorzystać żeton fanatyzmu by wykonać darmową akcję ruchu o wartości 2 punkty Szybkości lub wykonać atak w zwarciu na jednostkę wykorzystującą przepływ.",
+                        "type": "active",
+                        "subskills": []
+                    }
+                ]
+            },
+            {
+                "id": "claws.szpon.blokowanie",
+                "name": "Blokowanie",
+                "description": "Pole, na którym stoi jednostka, jest liczone jako posiadające następujące Efekty Pola: Pokryte Jaskółczą Stalą oraz Maskujące.",
+                "type": "passive",
+                "subskills": []
+            },
+            {
+                "id": "claws.szpon.wykrywanie",
+                "name": "Wykrywanie",
+                "description": "Gdy wroga jednostka deklaruje że czerpie lub wykorzystuje umiejętność wymagającą przepływu w odległości maksymalnie 6 kafelków, po rozpatrzeniu deklarowanej akcji, jednostka może wykorzystać żeton fanatyzmu by wykonać darmową akcję ruchu o wartości 2 punkty Szybkości lub wykonać atak w zwarciu na jednostkę wykorzystującą przepływ.",
+                "type": "active",
+                "subskills": []
+            }
+        ]
+    },
+    "zakonnyMieczSzpona": {
+        "id": "claws.zakonnymiecz.szpon",
+        "weaponType": "melee",
+        "name": "Zakonny miecz",
+        "range": 1,
+        "damage": {
+            "type": "avoidable",
+            "value": {
+                "count": 2,
+                "die": 4
+            }
+        }
+    },
+    "kuszaPodrecznaSzpona": {
+        "id": "claws.kuszapodreczna.szpon",
+        "weaponType": "ranged",
+        "name": "Kusza podręczna",
+        "range": 2,
+        "damage": {
+            "type": "avoidable",
+            "value": {
+                "count": 1,
+                "die": 4
+            }
+        }
+    },
+    "jaskolczeOstrze": {
+        "id": "claws.szpon.jaskolczeostrze",
+        "name": "Jaskółcze Ostrze",
+        "description": "Klinga zakonnego miecza jest stworzona z Jaskółczej Stali i trafienie nią daje efekty Jaskółczej Stali.",
+        "type": "passive",
+        "subskills": []
+    },
+    "sygnafor": {
+        "id": "claws.szpon.sygnafor",
+        "name": "Sygnafor",
+        "description": "Jako akcja możesz na stałe zmienić tryb działania pierścienia. Blokowanie jest domyślnym trybem.",
+        "type": "active",
+        "subskills": [
+            {
+                "id": "claws.szpon.blokowanie",
+                "name": "Blokowanie",
+                "description": "Pole, na którym stoi jednostka, jest liczone jako posiadające następujące Efekty Pola: Pokryte Jaskółczą Stalą oraz Maskujące.",
+                "type": "passive",
+                "subskills": []
+            },
+            {
+                "id": "claws.szpon.wykrywanie",
+                "name": "Wykrywanie",
+                "description": "Gdy wroga jednostka deklaruje że czerpie lub wykorzystuje umiejętność wymagającą przepływu w odległości maksymalnie 6 kafelków, po rozpatrzeniu deklarowanej akcji, jednostka może wykorzystać żeton fanatyzmu by wykonać darmową akcję ruchu o wartości 2 punkty Szybkości lub wykonać atak w zwarciu na jednostkę wykorzystującą przepływ.",
+                "type": "active",
+                "subskills": []
+            }
+        ]
+    },
+    "blokowanie": {
+        "id": "claws.szpon.blokowanie",
+        "name": "Blokowanie",
+        "description": "Pole, na którym stoi jednostka, jest liczone jako posiadające następujące Efekty Pola: Pokryte Jaskółczą Stalą oraz Maskujące.",
+        "type": "passive",
+        "subskills": []
+    },
+    "wykrywanie": {
+        "id": "claws.szpon.wykrywanie",
+        "name": "Wykrywanie",
+        "description": "Gdy wroga jednostka deklaruje że czerpie lub wykorzystuje umiejętność wymagającą przepływu w odległości maksymalnie 6 kafelków, po rozpatrzeniu deklarowanej akcji, jednostka może wykorzystać żeton fanatyzmu by wykonać darmową akcję ruchu o wartości 2 punkty Szybkości lub wykonać atak w zwarciu na jednostkę wykorzystującą przepływ.",
+        "type": "active",
+        "subskills": []
+    },
+    "dominatorMnieProwadzi": {
+        "id": "claws.card.dominatormnieprowadzi",
+        "name": "Dominator mnie prowadzi!",
+        "description": "Zużyj żeton fanatyzmu zamiast Punktu Akcji."
+    },
+    "metalKtoryJestDaremOdDominatora": {
+        "id": "claws.card.metalktoryjestdaremoddominatora",
+        "name": "Metal, który jest darem od Dominatora",
+        "description": "Gdy przyjazna jednostka deklaruje zużycie punktu akcji w celu ataku lub trafi atakiem, zużyj żeton fanatyzmu, aby jej broń była pokryta jaskółczą stalą w czasie tego ataku."
+    },
+    "fanatycznyTraper": {
+        "fraction": "Claws",
+        "id": "claws.fanatycznytraper",
+        "name": "Fanatyczny Traper",
+        "value": 75,
+        "health": 9,
+        "actionPoints": 3,
+        "speed": 8,
+        "defense": 0,
+        "weapons": [
+            {
+                "id": "claws.sztylet.traper",
+                "weaponType": "melee",
+                "name": "Sztylet",
+                "range": 1,
+                "damage": {
+                    "type": "avoidable",
+                    "value": {
+                        "count": 1,
+                        "die": 4
+                    }
+                }
+            },
+            {
+                "id": "claws.krotkizakonnyluk.traper",
+                "weaponType": "ranged",
+                "name": "Krótki zakonny łuk",
+                "range": 3,
+                "damage": {
+                    "type": "avoidable",
+                    "value": {
+                        "count": 1,
+                        "die": 4
+                    }
+                }
+            }
+        ],
+        "cards": [
+            {
+                "card": {
+                    "id": "claws.card.dominatorzezlapieichdlaciebie",
+                    "name": "Dominatorze, złapie ich dla ciebie!",
+                    "description": "Gdy przyjazna jednostka deklaruje zużycie punktu akcji, zużyj punkt fanatyzmu, by ustawić nieaktywną pułapkę na pustym kafelku sąsiadującym z tą jednostką."
+                },
+                "count": 1
+            },
+            {
+                "card": {
+                    "id": "claws.card.widzeheretyka",
+                    "name": "Widzę Heretyka!",
+                    "description": "Na początku aktywacji zużyj punkt fanatyzmu, by dać do końca tury broni dystansowej aktywowanej jednostki: +1 szansy na trafienie."
+                },
+                "count": 2
+            }
+        ],
+        "skills": [
+            {
+                "id": "claws.traper.pulapkinaheretykow",
+                "name": "Pułapki na heretyków!",
+                "description": "Jednostka posiada do rozstawienia 2 kafelki ukrytej pułapki: 1 aktywna, 1 nieaktywna. Jako akcję możesz wystawić 1 pułapkę na pustym kafelku sąsiadującym z tą jednostką.",
+                "type": "active",
+                "subskills": []
+            }
+        ]
+    },
+    "sztyletTrapera": {
+        "id": "claws.sztylet.traper",
+        "weaponType": "melee",
+        "name": "Sztylet",
+        "range": 1,
+        "damage": {
+            "type": "avoidable",
+            "value": {
+                "count": 1,
+                "die": 4
+            }
+        }
+    },
+    "krotkiZakonnyLukTrapera": {
+        "id": "claws.krotkizakonnyluk.traper",
+        "weaponType": "ranged",
+        "name": "Krótki zakonny łuk",
+        "range": 3,
+        "damage": {
+            "type": "avoidable",
+            "value": {
+                "count": 1,
+                "die": 4
+            }
+        }
+    },
+    "pulapkiNaHeretykow": {
+        "id": "claws.traper.pulapkinaheretykow",
+        "name": "Pułapki na heretyków!",
+        "description": "Jednostka posiada do rozstawienia 2 kafelki ukrytej pułapki: 1 aktywna, 1 nieaktywna. Jako akcję możesz wystawić 1 pułapkę na pustym kafelku sąsiadującym z tą jednostką.",
+        "type": "active",
+        "subskills": []
+    },
+    "dominatorzeZlapieIchDlaCiebie": {
+        "id": "claws.card.dominatorzezlapieichdlaciebie",
+        "name": "Dominatorze, złapie ich dla ciebie!",
+        "description": "Gdy przyjazna jednostka deklaruje zużycie punktu akcji, zużyj punkt fanatyzmu, by ustawić nieaktywną pułapkę na pustym kafelku sąsiadującym z tą jednostką."
+    },
+    "widzeHeretyka": {
+        "id": "claws.card.widzeheretyka",
+        "name": "Widzę Heretyka!",
+        "description": "Na początku aktywacji zużyj punkt fanatyzmu, by dać do końca tury broni dystansowej aktywowanej jednostki: +1 szansy na trafienie."
+    },
+    "fanatyk": {
+        "fraction": "Claws",
+        "id": "claws.fanatyk",
+        "name": "Fanatyk",
+        "value": 50,
+        "health": 8,
+        "actionPoints": 2,
+        "speed": 9,
+        "defense": 0,
+        "weapons": [
+            {
+                "id": "claws.weapon.kolczastybiczpokutny",
+                "weaponType": "melee",
+                "name": "Kolczasty bicz pokutny",
+                "range": 1,
+                "damage": {
+                    "type": "avoidable",
+                    "value": {
+                        "count": 1,
+                        "die": 4
+                    },
+                    "additionalDamage": 1
+                }
+            }
+        ],
+        "cards": [
+            {
+                "card": {
+                    "id": "claws.card.zbawieniepoprzezcierpienie",
+                    "name": "ZBAWIENIE POPRZEZ CIERPIENIE!",
+                    "description": "Na początku aktywacji zużyj punkt fanatyzmu by zaatakować w zwarciu samego siebie (automatycznie trafienie), a następnie przeciwnika."
+                },
+                "count": 1
+            },
+            {
+                "card": {
+                    "id": "claws.card.panmniewybral",
+                    "name": "PAN MNIE WYBRAŁ!",
+                    "description": "Po zadeklarowaniu szarży zużyj punkt fanatyzmu, by w tej akcji móc szarżować przez kafelki zwiększające Poziom Wysokość. Koszt tej szarży wynosi 1 punkt akcji."
+                },
+                "count": 2
+            }
+        ]
+    },
+    "kolczastyBiczPokutny": {
+        "id": "claws.weapon.kolczastybiczpokutny",
+        "weaponType": "melee",
+        "name": "Kolczasty bicz pokutny",
+        "range": 1,
+        "damage": {
+            "type": "avoidable",
+            "value": {
+                "count": 1,
+                "die": 4
+            },
+            "additionalDamage": 1
+        }
+    },
+    "zbawieniePoprzezCierpienie": {
+        "id": "claws.card.zbawieniepoprzezcierpienie",
+        "name": "ZBAWIENIE POPRZEZ CIERPIENIE!",
+        "description": "Na początku aktywacji zużyj punkt fanatyzmu by zaatakować w zwarciu samego siebie (automatycznie trafienie), a następnie przeciwnika."
+    },
+    "panMnieWybral": {
+        "id": "claws.card.panmniewybral",
+        "name": "PAN MNIE WYBRAŁ!",
+        "description": "Po zadeklarowaniu szarży zużyj punkt fanatyzmu, by w tej akcji móc szarżować przez kafelki zwiększające Poziom Wysokość. Koszt tej szarży wynosi 1 punkt akcji."
+    },
+    "buzujacyProfesorTermodynamiki": {
+        "fraction": "Weavers",
+        "id": "weavers.buzujacyprofesortermodynamiki",
+        "name": "Buzujący Profesor Termodynamiki",
+        "value": 100,
+        "health": 14,
+        "actionPoints": 3,
+        "speed": 6,
+        "defense": 1,
+        "heartType": "buzzing",
+        "flowLimit": 20,
+        "weapons": [
+            {
+                "id": "weavers.weapon.krotkinozprofesora",
+                "weaponType": "melee",
+                "name": "Krótki nóż profesora",
+                "range": 1,
+                "damage": {
+                    "type": "avoidable",
+                    "value": {
+                        "count": 1,
+                        "die": 4
+                    }
+                }
+            }
+        ],
+        "cards": [
+            {
+                "card": {
+                    "id": "weavers.card.zlotakula.pociskpostepu",
+                    "name": "Złota Kula",
+                    "description": "Zużyj punkt akcji, by dać na stałe jednostce z buzującym lub stopionym sercem przepływu umiejętność: Pocisk postępu (wariant wzmocniony).",
+                    "teachesSkill": {
+                        "id": "weavers.skill.pociskpostepu.zlotakula",
+                        "name": "Pocisk postępu",
+                        "description": "Zużyj punkt akcji oraz minimum 4pt przepływu aby wykonać atak dystansowy o zasięgu 2 oraz 1 punkcie obrażeń nieuchronnych. Za każde zużyte 4 punkty przepływu otrzymuje: +2 do trafienia, +1 do zasięgu, 1d4+1 obrażeń nieuchronnych.",
+                        "type": "active",
+                        "subskills": []
+                    }
+                },
+                "count": 1
+            },
+            {
+                "card": {
+                    "id": "weavers.card.zlotakula.zaawansowanapiromancja",
+                    "name": "Złota Kula",
+                    "description": "Zużyj punkt akcji, by dać na stałe jednostce z buzującym lub stopionym sercem przepływu umiejętność: Zaawansowana piromancja.",
+                    "teachesSkill": {
+                        "id": "weavers.skill.zaawansowanapiromancja.zlotakula",
+                        "name": "Zaawansowana piromancja",
+                        "description": "Za każde zużyte 4 punkty przepływu podpal kafelek w zasięgu wzroku oraz dystansie 2 i zadaj 1d4 obrażeń przepływowych stojącej na nim jednostce.",
+                        "type": "active",
+                        "subskills": []
+                    }
+                },
+                "count": 1
+            },
+            {
+                "card": {
+                    "id": "weavers.card.krysztalkwarcowy.pomaranczowy",
+                    "name": "Kryształ kwarcowy - Pomarańczowy",
+                    "description": "Na początku aktywacji użyj tej karty, aby dać aktywowanej jednostce z buzującym lub stopionym sercem przepływu 4 punkty przepływu."
+                },
+                "count": 1
+            }
+        ],
+        "skills": [
+            {
+                "id": "weavers.skill.pociskpostepu",
+                "name": "Pocisk postępu",
+                "description": "Zużyj punkt akcji oraz minimum 4pt przepływu aby wykonać atak dystansowy o zasięgu 2 oraz 1 punkcie obrażeń nieuchronnych. Za każde zużyte 4 punkty przepływu otrzymuje: +1 do trafienia, +1 do zasięgu, 1d4 obrażeń nieuchronnych.",
+                "type": "active",
+                "subskills": []
+            },
+            {
+                "id": "weavers.skill.piromancja",
+                "name": "Piromancja",
+                "description": "Zużyj punkt akcji aby wykorzystać 1 punkt przepływu i podpalić kafelek w zasięgu wzroku i dystansie 2.",
+                "type": "active",
+                "subskills": []
+            }
+        ]
+    },
+    "krotkiNozProfesora": {
+        "id": "weavers.weapon.krotkinozprofesora",
+        "weaponType": "melee",
+        "name": "Krótki nóż profesora",
+        "range": 1,
+        "damage": {
+            "type": "avoidable",
+            "value": {
+                "count": 1,
+                "die": 4
+            }
+        }
+    },
+    "pociskPostepu": {
+        "id": "weavers.skill.pociskpostepu",
+        "name": "Pocisk postępu",
+        "description": "Zużyj punkt akcji oraz minimum 4pt przepływu aby wykonać atak dystansowy o zasięgu 2 oraz 1 punkcie obrażeń nieuchronnych. Za każde zużyte 4 punkty przepływu otrzymuje: +1 do trafienia, +1 do zasięgu, 1d4 obrażeń nieuchronnych.",
+        "type": "active",
+        "subskills": []
+    },
+    "piromancja": {
+        "id": "weavers.skill.piromancja",
+        "name": "Piromancja",
+        "description": "Zużyj punkt akcji aby wykorzystać 1 punkt przepływu i podpalić kafelek w zasięgu wzroku i dystansie 2.",
+        "type": "active",
+        "subskills": []
+    },
+    "zlotaKulaPociskPostepu": {
+        "id": "weavers.card.zlotakula.pociskpostepu",
+        "name": "Złota Kula",
+        "description": "Zużyj punkt akcji, by dać na stałe jednostce z buzującym lub stopionym sercem przepływu umiejętność: Pocisk postępu (wariant wzmocniony).",
+        "teachesSkill": {
+            "id": "weavers.skill.pociskpostepu.zlotakula",
+            "name": "Pocisk postępu",
+            "description": "Zużyj punkt akcji oraz minimum 4pt przepływu aby wykonać atak dystansowy o zasięgu 2 oraz 1 punkcie obrażeń nieuchronnych. Za każde zużyte 4 punkty przepływu otrzymuje: +2 do trafienia, +1 do zasięgu, 1d4+1 obrażeń nieuchronnych.",
+            "type": "active",
+            "subskills": []
+        }
+    },
+    "zlotaKulaZaawansowanaPiromancja": {
+        "id": "weavers.card.zlotakula.zaawansowanapiromancja",
+        "name": "Złota Kula",
+        "description": "Zużyj punkt akcji, by dać na stałe jednostce z buzującym lub stopionym sercem przepływu umiejętność: Zaawansowana piromancja.",
+        "teachesSkill": {
+            "id": "weavers.skill.zaawansowanapiromancja.zlotakula",
+            "name": "Zaawansowana piromancja",
+            "description": "Za każde zużyte 4 punkty przepływu podpal kafelek w zasięgu wzroku oraz dystansie 2 i zadaj 1d4 obrażeń przepływowych stojącej na nim jednostce.",
+            "type": "active",
+            "subskills": []
+        }
+    },
+    "krysztalKwarcowyPomaranczowy": {
+        "id": "weavers.card.krysztalkwarcowy.pomaranczowy",
+        "name": "Kryształ kwarcowy - Pomarańczowy",
+        "description": "Na początku aktywacji użyj tej karty, aby dać aktywowanej jednostce z buzującym lub stopionym sercem przepływu 4 punkty przepływu."
+    },
+    "bladyStudent": {
+        "fraction": "Weavers",
+        "id": "weavers.bladystudent",
+        "name": "Blady Student",
+        "value": 75,
+        "health": 8,
+        "actionPoints": 3,
+        "speed": 6,
+        "defense": 1,
+        "heartType": "pale",
+        "flowLimit": 20,
+        "weapons": [
+            {
+                "id": "weavers.weapon.pierscienzkolcem",
+                "weaponType": "melee",
+                "name": "Pierścień z kolcem",
+                "range": 1,
+                "damage": {
+                    "type": "avoidable",
+                    "value": {
+                        "count": 1,
+                        "die": 4
+                    }
+                }
+            }
+        ],
+        "cards": [
+            {
+                "card": {
+                    "id": "weavers.card.checdoNauki",
+                    "name": "Chęć do nauki",
+                    "description": "Jako akcja dobierz z talii 4 karty i zostaw na ręce jedną z nich."
+                },
+                "count": 1
+            },
+            {
+                "card": {
+                    "id": "weavers.card.krysztalkwarcowy.fioletowy",
+                    "name": "Kryształ kwarcowy - Fioletowy",
+                    "description": "Na początku aktywacji użyj tej karty, aby dać aktywowanej jednostce z bladym lub stopionym sercem przepływu 4 punkty przepływu."
+                },
+                "count": 2
+            }
+        ],
+        "skills": [
+            {
+                "id": "weavers.skill.naprawatkanki",
+                "name": "Naprawa tkanki",
+                "description": "Zużyj punkt akcji aby za każde zużyte 4 punkty przepływu wyleczyć 1d4+1 zdrowia sąsiadującej jednostce.",
+                "type": "active",
+                "subskills": []
+            }
+        ]
+    },
+    "pierscienZKolcem": {
+        "id": "weavers.weapon.pierscienzkolcem",
+        "weaponType": "melee",
+        "name": "Pierścień z kolcem",
+        "range": 1,
+        "damage": {
+            "type": "avoidable",
+            "value": {
+                "count": 1,
+                "die": 4
+            }
+        }
+    },
+    "naprawaTkanki": {
+        "id": "weavers.skill.naprawatkanki",
+        "name": "Naprawa tkanki",
+        "description": "Zużyj punkt akcji aby za każde zużyte 4 punkty przepływu wyleczyć 1d4+1 zdrowia sąsiadującej jednostce.",
+        "type": "active",
+        "subskills": []
+    },
+    "checDoNauki": {
+        "id": "weavers.card.checdoNauki",
+        "name": "Chęć do nauki",
+        "description": "Jako akcja dobierz z talii 4 karty i zostaw na ręce jedną z nich."
+    },
+    "krysztalKwarcowyFioletowy": {
+        "id": "weavers.card.krysztalkwarcowy.fioletowy",
+        "name": "Kryształ kwarcowy - Fioletowy",
+        "description": "Na początku aktywacji użyj tej karty, aby dać aktywowanej jednostce z bladym lub stopionym sercem przepływu 4 punkty przepływu."
+    },
+    "stopionyStudent": {
+        "fraction": "Weavers",
+        "id": "weavers.stopionystudent",
+        "name": "Stopiony Student",
+        "value": 75,
+        "health": 7,
+        "actionPoints": 3,
+        "speed": 7,
+        "defense": 0,
+        "heartType": "melted",
+        "flowLimit": 20,
+        "weapons": [
+            {
+                "id": "weavers.weapon.nozstudenta",
+                "weaponType": "melee",
+                "name": "Nóż studenta",
+                "range": 1,
+                "damage": {
+                    "type": "avoidable",
+                    "value": {
+                        "count": 1,
+                        "die": 4
+                    }
+                }
+            }
+        ],
+        "cards": [
+            {
+                "card": {
+                    "id": "weavers.card.checdoNauki",
+                    "name": "Chęć do nauki",
+                    "description": "Jako akcja dobierz z talii 4 karty i zostaw na ręce jedną z nich."
+                },
+                "count": 1
+            },
+            {
+                "card": {
+                    "id": "weavers.card.krysztalkwarcowy.bialy",
+                    "name": "Kryształ kwarcowy -ą Biały",
+                    "description": "Na początku aktywacji użyj tej karty, aby dać aktywowanej jednostce z dowolnym sercem przepływu 2 punkty przepływu."
+                },
+                "count": 2
+            }
+        ],
+        "skills": [
+            {
+                "id": "weavers.skill.torbastopionego",
+                "name": "Torba Stopionego",
+                "description": "Zużyj punkt akcji aby dobrać dwie karty i jedną odrzuć.",
+                "type": "active",
+                "subskills": []
+            }
+        ]
+    },
+    "nozStudenta": {
+        "id": "weavers.weapon.nozstudenta",
+        "weaponType": "melee",
+        "name": "Nóż studenta",
+        "range": 1,
+        "damage": {
+            "type": "avoidable",
+            "value": {
+                "count": 1,
+                "die": 4
+            }
+        }
+    },
+    "torbaStopionego": {
+        "id": "weavers.skill.torbastopionego",
+        "name": "Torba Stopionego",
+        "description": "Zużyj punkt akcji aby dobrać dwie karty i jedną odrzuć.",
+        "type": "active",
+        "subskills": []
+    },
+    "krysztalKwarcowyBialy": {
+        "id": "weavers.card.krysztalkwarcowy.bialy",
+        "name": "Kryształ kwarcowy -ą Biały",
+        "description": "Na początku aktywacji użyj tej karty, aby dać aktywowanej jednostce z dowolnym sercem przepływu 2 punkty przepływu."
+    },
+    "rozbitaButelka": {
+        "id": "weavers.weapon.rozbitabutelka",
+        "weaponType": "melee",
+        "name": "Rozbita butelka",
+        "range": 1,
+        "damage": {
+            "type": "avoidable",
+            "value": {
+                "count": 1,
+                "die": 4
+            }
+        }
+    },
+    "utalentowanyMlodzieniecPale": {
+        "fraction": "Weavers",
+        "id": "weavers.utalentowanymlodzieniec.pale",
+        "name": "Blady Utalentowany Młodzieniec",
+        "value": 50,
+        "health": 8,
+        "actionPoints": 2,
+        "speed": 8,
+        "defense": 0,
+        "heartType": "pale",
+        "flowLimit": 20,
+        "weapons": [
+            {
+                "id": "weavers.weapon.rozbitabutelka",
+                "weaponType": "melee",
+                "name": "Rozbita butelka",
+                "range": 1,
+                "damage": {
+                    "type": "avoidable",
+                    "value": {
+                        "count": 1,
+                        "die": 4
+                    }
+                }
+            }
+        ],
+        "cards": [
+            {
+                "card": {
+                    "id": "weavers.card.krysztalkwarcowy.fioletowy",
+                    "name": "Kryształ kwarcowy - Fioletowy",
+                    "description": "Na początku aktywacji użyj tej karty, aby dać aktywowanej jednostce z bladym lub stopionym sercem przepływu 4 punkty przepływu."
+                },
+                "count": 3
+            }
+        ],
+        "skills": []
+    },
+    "utalentowanyMlodzieniecWavy": {
+        "fraction": "Weavers",
+        "id": "weavers.utalentowanymlodzieniec.wavy",
+        "name": "Falujący Utalentowany Młodzieniec",
+        "value": 50,
+        "health": 8,
+        "actionPoints": 2,
+        "speed": 8,
+        "defense": 0,
+        "heartType": "wavy",
+        "flowLimit": 20,
+        "weapons": [
+            {
+                "id": "weavers.weapon.rozbitabutelka",
+                "weaponType": "melee",
+                "name": "Rozbita butelka",
+                "range": 1,
+                "damage": {
+                    "type": "avoidable",
+                    "value": {
+                        "count": 1,
+                        "die": 4
+                    }
+                }
+            }
+        ],
+        "cards": [
+            {
+                "card": {
+                    "id": "weavers.card.krysztalkwarcowy.niebieski",
+                    "name": "Kryształ kwarcowy - Niebieski",
+                    "description": "Na początku aktywacji użyj tej karty, aby dać aktywowanej jednostce z falującym lub stopionym sercem przepływu 4 punkty przepływu."
+                },
+                "count": 3
+            }
+        ],
+        "skills": []
+    },
+    "krysztalKwarcowyNiebieski": {
+        "id": "weavers.card.krysztalkwarcowy.niebieski",
+        "name": "Kryształ kwarcowy - Niebieski",
+        "description": "Na początku aktywacji użyj tej karty, aby dać aktywowanej jednostce z falującym lub stopionym sercem przepływu 4 punkty przepływu."
+    },
+    "utalentowanyMlodzieniecMelted": {
+        "fraction": "Weavers",
+        "id": "weavers.utalentowanymlodzieniec.melted",
+        "name": "Stopiony Utalentowany Młodzieniec",
+        "value": 50,
+        "health": 8,
+        "actionPoints": 2,
+        "speed": 8,
+        "defense": 0,
+        "heartType": "melted",
+        "flowLimit": 20,
+        "weapons": [
+            {
+                "id": "weavers.weapon.rozbitabutelka",
+                "weaponType": "melee",
+                "name": "Rozbita butelka",
+                "range": 1,
+                "damage": {
+                    "type": "avoidable",
+                    "value": {
+                        "count": 1,
+                        "die": 4
+                    }
+                }
+            }
+        ],
+        "cards": [
+            {
+                "card": {
+                    "id": "weavers.card.krysztalkwarcowy.bialy",
+                    "name": "Kryształ kwarcowy -ą Biały",
+                    "description": "Na początku aktywacji użyj tej karty, aby dać aktywowanej jednostce z dowolnym sercem przepływu 2 punkty przepływu."
+                },
+                "count": 3
+            }
+        ],
+        "skills": []
+    },
+    "utalentowanyMlodzieniecBuzzing": {
+        "fraction": "Weavers",
+        "id": "weavers.utalentowanymlodzieniec.buzzing",
+        "name": "Buzujący Utalentowany Młodzieniec",
+        "value": 50,
+        "health": 8,
+        "actionPoints": 2,
+        "speed": 8,
+        "defense": 0,
+        "heartType": "buzzing",
+        "flowLimit": 20,
+        "weapons": [
+            {
+                "id": "weavers.weapon.rozbitabutelka",
+                "weaponType": "melee",
+                "name": "Rozbita butelka",
+                "range": 1,
+                "damage": {
+                    "type": "avoidable",
+                    "value": {
+                        "count": 1,
+                        "die": 4
+                    }
+                }
+            }
+        ],
+        "cards": [
+            {
+                "card": {
+                    "id": "weavers.card.krysztalkwarcowy.pomaranczowy",
+                    "name": "Kryształ kwarcowy - Pomarańczowy",
+                    "description": "Na początku aktywacji użyj tej karty, aby dać aktywowanej jednostce z buzującym lub stopionym sercem przepływu 4 punkty przepływu."
+                },
+                "count": 3
+            }
+        ],
+        "skills": []
+    }
+}
