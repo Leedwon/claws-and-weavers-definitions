@@ -116,20 +116,6 @@
                                     "subskills": []
                                 }
                             ]
-                        },
-                        {
-                            "id": "claws.szpon.blokowanie",
-                            "name": "Blokowanie",
-                            "description": "Pole, na którym stoi jednostka, jest liczone jako posiadające następujące Efekty Pola: Pokryte Jaskółczą Stalą oraz Maskujące.",
-                            "type": "passive",
-                            "subskills": []
-                        },
-                        {
-                            "id": "claws.szpon.wykrywanie",
-                            "name": "Wykrywanie",
-                            "description": "Gdy wroga jednostka deklaruje że czerpie lub wykorzystuje umiejętność wymagającą przepływu w odległości maksymalnie 6 kafelków, po rozpatrzeniu deklarowanej akcji, jednostka może wykorzystać żeton fanatyzmu by wykonać darmową akcję ruchu o wartości 2 punkty Szybkości lub wykonać atak w zwarciu na jednostkę wykorzystującą przepływ.",
-                            "type": "active",
-                            "subskills": []
                         }
                     ],
                     "speed": 6,
@@ -805,20 +791,6 @@
                         "subskills": []
                     }
                 ]
-            },
-            {
-                "id": "claws.szpon.blokowanie",
-                "name": "Blokowanie",
-                "description": "Pole, na którym stoi jednostka, jest liczone jako posiadające następujące Efekty Pola: Pokryte Jaskółczą Stalą oraz Maskujące.",
-                "type": "passive",
-                "subskills": []
-            },
-            {
-                "id": "claws.szpon.wykrywanie",
-                "name": "Wykrywanie",
-                "description": "Gdy wroga jednostka deklaruje że czerpie lub wykorzystuje umiejętność wymagającą przepływu w odległości maksymalnie 6 kafelków, po rozpatrzeniu deklarowanej akcji, jednostka może wykorzystać żeton fanatyzmu by wykonać darmową akcję ruchu o wartości 2 punkty Szybkości lub wykonać atak w zwarciu na jednostkę wykorzystującą przepływ.",
-                "type": "active",
-                "subskills": []
             }
         ]
     },

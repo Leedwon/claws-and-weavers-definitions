@@ -113,8 +113,6 @@ szpon: #Claw & {
 	skills: [
 		jaskolczeOstrze,
 		sygnafor,
-		blokowanie,
-		wykrywanie,
 	]
 }
 
